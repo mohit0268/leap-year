@@ -1,7 +1,7 @@
 const readlinesync=require('readline-sync')
 const chalk=require('chalk')
 
-var username=readlinesync.question("May I have your name please?\n");
+var username=readlinesync.question(chalk.greenBright.bold("Enter your name?\n");
 console.log(chalk.yellowBright.bold("Welcome "+ username ))
 
 var userAge=readlinesync.question('Type a year to check wheather it is a leap year or not? \n')
